@@ -1,0 +1,102 @@
+/* Reset some default styles for better cross-browser consistency */
+body, h1, h2, p, nav, ul, li, table, th, td, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #9fdc8d;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header (H1 and H2) */
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style paragraphs */
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 20px;
+}
+
+/* Style navigation links */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Apply hover effect on navigation links */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style list items */
+ul {
+    list-style-type: none;
+    margin: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Style tables */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style forms */
+form {
+    width: 80%;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* Style submit button */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
